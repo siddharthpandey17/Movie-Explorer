@@ -1,0 +1,8 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Movie Explorer</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="app">
+<header class="hero"><p class="eyebrow">FIND YOUR NEXT WATCH</p><h1>Movie Explorer 🎬</h1><p>Search shows and build your personal watchlist.</p></header>
+<section class="search-panel"><form id="search-form"><label for="movie-search">Search for a movie or show</label><div class="search-row"><input id="movie-search" type="search" placeholder="Try Batman, Friends..." required><button class="primary" type="submit">Search</button></div></form><p id="status" role="status">Search for something to get started.</p></section>
+<section class="section"><div class="section-heading"><h2 id="results-heading">Explore shows</h2><span id="result-count" class="count"></span></div><div id="movie-grid" class="movie-grid"></div><p id="empty-state" class="empty-state">Your search results will appear here.</p></section>
+<section class="section"><div class="section-heading"><h2>My Watchlist</h2><span id="watchlist-count" class="count">0 saved</span></div><div id="watchlist-grid" class="movie-grid"></div><p id="watchlist-empty" class="empty-state">Save a show to see it here.</p></section>
+<footer>HTML · CSS · JavaScript · Fetch API · localStorage</footer></main><script src="script.js"></script></body></html>
